@@ -1,0 +1,15 @@
+First, list all the files that have been modified since the last commit.
+
+git status
+
+Add the files you want to commit individually.
+
+git add location/file_name.rb git add location/file_name2.rb ...
+
+Make commit to the files you added to push.
+
+git commit -m "committing files one at a time or two at a time"
+
+Now push
+
+git push heroku
